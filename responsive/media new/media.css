@@ -1,0 +1,44 @@
+@media(max-width:480px){
+   .main{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    flex-wrap: wrap;
+    height: auto;
+   }
+    .box1 
+    {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .box2
+    {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .box3
+    {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+}
+@media(min-width:481px) and (max-width:768px)
+{
+    .main{
+     display: flex;
+     flex-wrap: wrap;
+     width: 100%;
+    }
+    .box1{
+        width: 50%;
+
+       
+    }
+    .box2{
+       width: 50%;
+    }
+    .box2 img 
+    {
+        width: 100%;
+    }
+}
